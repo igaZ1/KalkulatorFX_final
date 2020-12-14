@@ -1,0 +1,17 @@
+.button{
+    -fx-background-color: #929090;
+    -fx-text-fill: #fffafa;
+}
+.button2{
+    -fx-background-color: #5a5858;
+    -fx-text-fill: #fffafa;
+}
+.button3{
+    -fx-background-color: #ee910c;
+    -fx-text-fill: #fffafa;
+}
+.text-area{
+    -fx-background-color: #bbb9b9;
+    -fx-text-fill: #070707;
+
+}

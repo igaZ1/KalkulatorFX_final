@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="601.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.ib.KalkulatorController">
+   <children>
+      <BorderPane prefHeight="601.0" prefWidth="400.0">
+         <center>
+            <GridPane BorderPane.alignment="CENTER">
+              <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Button fx:id="btn8" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="101.0" prefWidth="106.0" stylesheets="@kalkulator.css" text="8" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnPlus" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="101.0" prefWidth="106.0" styleClass="button3" stylesheets="@kalkulator.css" text="+" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnMin" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="101.0" prefWidth="106.0" styleClass="button3" stylesheets="@kalkulator.css" text="-" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnMult" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="101.0" prefWidth="106.0" styleClass="button3" stylesheets="@kalkulator.css" text="*" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btn3" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="101.0" prefWidth="106.0" stylesheets="@kalkulator.css" text="3" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnZnak" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="101.0" prefWidth="106.0" styleClass="button2" stylesheets="@kalkulator.css" text="+/-" GridPane.columnIndex="1">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnProc" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="101.0" prefWidth="106.0" styleClass="button2" stylesheets="@kalkulator.css" text="\%" GridPane.columnIndex="2">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnDot" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="101.0" prefWidth="106.0" stylesheets="@kalkulator.css" text="." GridPane.columnIndex="2" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btn9" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="101.0" prefWidth="106.0" stylesheets="@kalkulator.css" text="9" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btn6" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="101.0" prefWidth="106.0" stylesheets="@kalkulator.css" text="6" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnDiv" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="101.0" prefWidth="106.0" styleClass="button3" stylesheets="@kalkulator.css" text="/" GridPane.columnIndex="3">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnEq" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="101.0" prefWidth="106.0" styleClass="button3" stylesheets="@kalkulator.css" text="=" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btn7" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="101.0" prefWidth="106.0" stylesheets="@kalkulator.css" text="7" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btn5" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="101.0" prefWidth="106.0" stylesheets="@kalkulator.css" text="5" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btn4" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="101.0" prefWidth="106.0" stylesheets="@kalkulator.css" text="4" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btn1" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="101.0" prefWidth="106.0" stylesheets="@kalkulator.css" text="1" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btn2" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="101.0" prefWidth="106.0" stylesheets="@kalkulator.css" text="2" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btn0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="98.0" prefWidth="201.0" stylesheets="@kalkulator.css" text="0" GridPane.columnSpan="2" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnC" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="101.0" prefWidth="106.0" styleClass="button2" stylesheets="@kalkulator.css" text="C">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Button>
+               </children>
+            </GridPane>
+         </center>
+         <top>
+            <TextField fx:id="display" alignment="CENTER_RIGHT" editable="false" prefHeight="108.0" prefWidth="397.0" styleClass="text-area" stylesheets="@kalkulator.css" BorderPane.alignment="CENTER">
+               <font>
+                  <Font size="37.0" />
+               </font>
+            </TextField>
+         </top>
+      </BorderPane>
+   </children>
+</AnchorPane>
